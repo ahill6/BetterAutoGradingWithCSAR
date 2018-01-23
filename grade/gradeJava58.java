@@ -1,24 +1,22 @@
-package tmpStorage;
-//3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_001
+package tmpStorage.grade;
+
+
 //3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_016
 public class gradeJava58{
 	public static void main(String[] args){
-	grade(1.0,2.0,3.0, 4.0, 5.0);
+	grade((float)1.0,(float)2.0,(float)3.0, (float)4.0, (float)5.0);
 }
 
-	public static char grade(double A, double B, double C, double D, double score){	
-	if (score >= A) {
+	public static char grade(float A,float B,float C,float D,float grade){	
+	if (grade >=  A)
 		 return 'A';
-		}
-	else if (score >= B) {
+	else if (A > grade && grade >= B)
 		 return 'B';
-		}
-	else if (score >= C) {
+	else if (B > grade && grade >= C)
 		 return 'C';
-		}
-	else if (score < D) {
+	else if (C > grade && grade >= D)
+		 return 'D';
+	else
 		 return 'F';
-		}
-	return 0;
 }
 }

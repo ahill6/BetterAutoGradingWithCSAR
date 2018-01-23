@@ -1,5 +1,6 @@
-package tmpStorage;
-//295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_011
+package tmpStorage.grade;
+
+
 //295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_010
 public class gradeJava31{
 	public static void main(String[] args){
@@ -7,15 +8,16 @@ public class gradeJava31{
 }
 
 	public static char grade(float a, float b, float c, float d, float perc){
+
    char grade;
 
    if (perc > a) {
-	grade = 'A';
+	grade = 'A';		
    } else if (perc > b) {
 	grade = 'B';
    } else if (perc > c) {
 	grade = 'C';
-   } else if (perc > d) {		
+   } else if (perc > d) {
 	grade = 'D';
    } else {
 	grade = 'F';

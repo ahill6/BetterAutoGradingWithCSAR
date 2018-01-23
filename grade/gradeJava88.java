@@ -1,5 +1,6 @@
-package tmpStorage;
-//531924c0915a9fa7b02951d5de7cc2b0da19d57a6be3b667c064bec1d5db14b955c30483b24273dd8d11a609a81726c4e6ab964009eb716f8b60adcf5f6fd7e8_002
+package tmpStorage.grade;
+
+
 //531924c0915a9fa7b02951d5de7cc2b0da19d57a6be3b667c064bec1d5db14b955c30483b24273dd8d11a609a81726c4e6ab964009eb716f8b60adcf5f6fd7e8_001
 public class gradeJava88{
 	public static void main(String[] args){
@@ -7,16 +8,17 @@ public class gradeJava88{
 }
 
 	public static char grade(float a,float b,float c,float d,float percent){
-
+		char grade;
   if (percent < d)
-			return 'F';
-  else if ((percent >= d) && (percent < c))
-		return 'D';
-  else if ((percent >= c) && (percent < b))
-		return 'C';
-  else if ((percent >= b) && (percent < a))
-		return 'B';
+		grade = 'F';
+  else if ((percent > d) && (percent < c))
+		grade = 'D';
+  else if ((percent > c) && (percent < b))
+	grade = 'C';
+  else if ((percent > b) && (percent < a))
+		grade = 'B';
   else
-		return 'A';
+	grade = 'A';
+	return grade;
 }
 }

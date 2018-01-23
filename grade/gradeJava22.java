@@ -1,5 +1,6 @@
-package tmpStorage;
-//295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_002
+package tmpStorage.grade;
+
+
 //295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_001
 public class gradeJava22{
 	public static void main(String[] args){
@@ -12,7 +13,7 @@ public class gradeJava22{
    if (perc > a) {
 	grade = 'A';
    } else if (perc > b) {
-	grade = 'B';
+	grade = 'B';		
    } else if (perc > c) {
 	grade = 'C';
    } else if (perc > d) {
@@ -21,6 +22,6 @@ public class gradeJava22{
 	grade = 'F';
    }
     return grade;
-   
+
 }
 }

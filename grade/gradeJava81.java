@@ -1,5 +1,6 @@
-package tmpStorage;
-//489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_010
+package tmpStorage.grade;
+
+
 //489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_009
 public class gradeJava81{
 	public static void main(String[] args){
@@ -11,7 +12,7 @@ public class gradeJava81{
 	else if (percent >= B)		 return 'B';
 	else if (percent >= C)		 return 'C';
 	else if (percent >= D)		 return 'D';
-	else		 return 'F';
+	else 		 return 'F';
 
 }
 }

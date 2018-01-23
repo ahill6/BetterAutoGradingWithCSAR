@@ -1,5 +1,6 @@
-package tmpStorage;
-//295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_003
+package tmpStorage.grade;
+
+
 //295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_002
 public class gradeJava23{
 	public static void main(String[] args){
@@ -20,7 +21,7 @@ public class gradeJava23{
    } else {
 	grade = 'F';
    }
-    return grade;		
-
+    return grade;
+   
 }
 }
