@@ -1,5 +1,6 @@
-package tmpStorage;
-//3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_002
+package tmpStorage.smallest;
+
+
 //3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_001
 public class smallestJava47{
 	public static void main(String[] args){

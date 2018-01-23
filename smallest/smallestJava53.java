@@ -1,24 +1,21 @@
-package tmpStorage;
-//3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_003
+package tmpStorage.smallest;
+
+
 //3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_008
 public class smallestJava53{
 	public static void main(String[] args){
-	smallest(1.0,2.0,3.0,4.0);
+	smallest(1,2,3,4);
 }
 
-	public static double smallest(double a, double b, double c, double d){
-	  if (a < b && a < c && a < d) {
-	    return a;
-	  }
-	  else if (b < a && b < c && b < d) {
-	    return b;
-	  }
-	  else if (c < a && c < b && c < d) {
-	    return c;
-	  }
-	  else if (d < a && d < b && d < c) {
-	    return d;
-	  }
-	return -1.0;
-	}
+	public static int smallest(int n1,int n2,int n3,int n4){
+        if (n1 < n2 && n1 < n3 && n1 < n4)
+                return n1;
+        else if (n2 < n1 && n2 < n3 && n2 < n4)
+                return n2;
+
+        else if (n3 < n1 && n3 < n2 && n3 < n4)
+                return n3;
+	else
+                return n4;
+}
 }

@@ -1,5 +1,6 @@
-package tmpStorage;
-//346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_011
+package tmpStorage.smallest;
+
+
 //346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_010
 public class smallestJava37{
 	public static void main(String[] args){
@@ -8,10 +9,10 @@ public class smallestJava37{
 
 	public static int smallest(int num_1, int num_2, int num_3, int num_4){
 		int a, b, c, d;
-		a = (num_1);
-		b = (num_2);
-		c = (num_3);
-		d = (num_4);
+		a = num_1;
+		b = num_2;
+		c = num_3;
+		d = num_4;
 		if (a<=b && a<=c && a<=d) {
 			return a;}
 		else if (b<=a && b<=c && b<=d) {
