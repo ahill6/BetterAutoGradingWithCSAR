@@ -1,5 +1,6 @@
-package tmpStorage;
-//bfad6d21d636def8e9e72910c3eb0815f5747669e3a60fb10c6f7f421082d18e548dcfc5d4717bb6da075c36f067b37858d11528ce796b3226ae33719c5007ce_001
+package tmpStorage.grade;
+
+
 //bfad6d21d636def8e9e72910c3eb0815f5747669e3a60fb10c6f7f421082d18e548dcfc5d4717bb6da075c36f067b37858d11528ce796b3226ae33719c5007ce_000
 public class gradeJava191{
 	public static void main(String[] args){
@@ -17,6 +18,6 @@ public class gradeJava191{
         return 'D';
     if (stuscore < threshd)
         return 'F';
-	return 0;
+	return (char) stuscore;
 }
 }

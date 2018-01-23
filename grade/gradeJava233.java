@@ -1,12 +1,13 @@
-package tmpStorage;
-//d8b262849e28496f80a8acf7de9758cf3f3a4edf023343521e2e0ac50ec485212a473405570d6c58de6756ae098600d9c7138390faa1aaf6bf3609a8d4016448_001
+package tmpStorage.grade;
+
+
 //d8b262849e28496f80a8acf7de9758cf3f3a4edf023343521e2e0ac50ec485212a473405570d6c58de6756ae098600d9c7138390faa1aaf6bf3609a8d4016448_000
 public class gradeJava233{
 	public static void main(String[] args){
-	grade(1.0,2.0,3.0, 4.0, 5.0);
+	grade(1.0,2.0,3.0,4.0,5.0);
 }
 
-	public static double grade(double A, double B, double C, double D, double score){
+	public static char grade(double A, double B, double C, double D, double score){
 	if(score<D){
 	 return 'F';
 	}
@@ -22,6 +23,6 @@ public class gradeJava233{
 	else if(score>=A){
 	  return 'A';
 	 }
-	return score;
+	return (char) score;
 }
 }
