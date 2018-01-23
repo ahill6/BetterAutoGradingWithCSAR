@@ -1,5 +1,6 @@
-package tmpStorage;
-//89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_006
+package tmpStorage.median;
+
+
 //89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_005
 public class medianJava88{
 	public static void main(String[] args){
