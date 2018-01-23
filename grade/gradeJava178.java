@@ -1,12 +1,13 @@
-package tmpStorage;
-//af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_006
+package tmpStorage.grade;
+
+
 //af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_005
 public class gradeJava178{
 	public static void main(String[] args){
 	grade(1.0,2.0,3.0, 4.0);
 }
 
-	public static double grade(double a,double b,double c,double d){
+	public static char grade(double a,double b,double c,double d){
 //**/
 double per;
 per = (a+b+c+d)/4;
@@ -18,6 +19,6 @@ else if (per>=70 && per<80)
  return 'B';
 else if (per>=80)
  return 'A';
-return per;
+return (char) per;
 }
 }

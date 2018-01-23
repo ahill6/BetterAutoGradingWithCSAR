@@ -1,5 +1,6 @@
-package tmpStorage;
-//8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_002
+package tmpStorage.grade;
+
+
 //8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_001
 public class gradeJava116{
 	public static void main(String[] args){
@@ -17,10 +18,8 @@ public class gradeJava116{
       if (student_score >= c)
 	grade = 'C';
       else
-	if (student_score >= d)
-	  grade = 'D';
-	else
-	  grade = 'F';
-  return grade;
+	grade = 'D';
+
+   return grade;
 }
 }

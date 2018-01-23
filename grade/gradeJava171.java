@@ -1,5 +1,6 @@
-package tmpStorage;
-//aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_006
+package tmpStorage.grade;
+
+
 //aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_005
 public class gradeJava171{
 	public static void main(String[] args){
@@ -7,6 +8,7 @@ public class gradeJava171{
 }
 
 	public static char grade(float n,float a,float b,float c,float d){
+
   if (n>=a)
      return 'A';
 
@@ -18,7 +20,9 @@ public class gradeJava171{
 
   if((n<c) && (n>=d))
      return 'D';
-return 0;
-  	
+return (char) d;
+
+
+
 }
 }

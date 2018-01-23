@@ -1,5 +1,6 @@
-package tmpStorage;
-//75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356_004
+package tmpStorage.grade;
+
+
 //75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356_003
 public class gradeJava98{
 	public static void main(String[] args){

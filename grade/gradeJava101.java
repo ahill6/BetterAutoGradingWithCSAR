@@ -1,5 +1,6 @@
-package tmpStorage;
-//769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_013
+package tmpStorage.grade;
+
+
 //769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_000
 public class gradeJava101{
 	public static void main(String[] args){
@@ -17,6 +18,6 @@ public class gradeJava101{
 	 return 'D';
 	if (S < D)
 	 return 'F';
-	return 0;
+	return (char) S;
 }
 }
