@@ -1,5 +1,6 @@
-package tmpStorage;
-//cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11_001
+package tmpStorage.smallest;
+
+
 //cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11_000
 public class smallestJava154{
 	public static void main(String[] args){
@@ -16,6 +17,8 @@ public class smallestJava154{
 			min=n3;
 		if (min >= n4)
 			min=n4;
+		else
+			return min;
 		return min;
-}
+	}
 }

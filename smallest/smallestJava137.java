@@ -1,5 +1,6 @@
-package tmpStorage;
-//a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_005
+package tmpStorage.smallest;
+
+
 //a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_004
 public class smallestJava137{
 	public static void main(String[] args){
@@ -14,5 +15,5 @@ public class smallestJava137{
 		else if (int_3 < int_1 && int_3 < int_2 && int_3 < int_4)
 		return int_3;
 		else return int_4;
+		}
 	}
-}

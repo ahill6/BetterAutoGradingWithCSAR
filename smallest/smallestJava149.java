@@ -1,20 +1,27 @@
-package tmpStorage;
-//c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_000
+package tmpStorage.smallest;
+
+
 //c868b30a4adebf62b0ed20170a14ee9e5f8bc62d827e9712294ffa4a10ab8423e3d903c29e2392c83963972019a470e667c1987e2547294d1e2d1df1db832912_003
 public class smallestJava149{
 	public static void main(String[] args){
-	smallest(1.0,2.0,3.0,4.0);
+	smallest(new int[]{1,2,3,4});
 }
 
-	public static double smallest(double num1, double num2, double num3, double num4){
-	if (num1<num2 && num1<num3 && num1<num4)
-	return num1;
-	if (num2<num1 && num2<num3 && num2<num4)
-	return num2;
-	if (num3<num1 && num3<num2 && num3<num4)
-	return num3;
-	if (num4<num1 && num4<num2 && num4<num4)
-	return num4;
-
-	return -1.0;
-}}
+	public static int smallest(int[] numbers){
+  int x, i, smallest, j, k, temp;
+  for (k = 3; k > 0; k--)
+  {
+    for (j = 1; j <= k; j++)
+    {
+      if (numbers[j-1] > numbers[j])
+      {
+        temp = numbers[j-1];
+        numbers[j-1] = numbers[j];
+        numbers[j] = temp;
+      }
+    }
+  }
+  smallest = numbers[0];
+  return smallest;
+}
+}
